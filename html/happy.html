@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            text-decoration: none;
+        }
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-image: url('../img/backgroud.jpg');
+            background-size: cover;
+        }
+        .login{
+            width: 80%;
+            height: 90%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(
+                to right bottom,
+                rgba(255,255,255,.7),
+                rgba(255,255,255,.5),
+                rgba(255,255,255,.4)
+            );
+            /* 使背景模糊化 */
+            backdrop-filter: blur(10px);
+            box-shadow: 0 0 20px #a29bfe;
+            border-radius: 15px;
+
+
+        }
+        .next {
+            width: 50px;
+            height: 40px;
+            margin-top: 580px;
+            margin-left: 20px;
+    
+        }
+
+        .next i {
+            font-size: 30px;
+            color: #fff;
+            cursor: pointer;
+            text-shadow: 0 0 10px #ffffff;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <div class="login">
+        
+        <video src="../music/原神.mp4" autoplay="autoplay" width="100%"  >
+        
+            <script src="../js/jquery-1.8.3.min.js"></script>
+            <script src="../js/jquery.fullPage.min.js"></script>
+            <script src="../js/diy.js"></script>
+    </div>
+    <div class="next">
+        <a href="EasterEgg.html">
+         <i class="iconfont icon-backward_filled">></i>
+        </a>
+     </div>
+    
+</body>
+</html>
+
+
